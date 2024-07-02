@@ -8,35 +8,39 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
+    <div class="word-master-container">
+        <h1>Count Master</h1>
 
-    <h1></h1>
+        <textarea name="" id="" cols="30" rows="10" class="wordsContent" placeholder="Type or Paste Text here.........................." ></textarea>
 
-    <section id="textArea">
-        <div class="text-container">
-            <textarea class="input-text" rows="13" placeholder="Type or Paste your text here............."></textarea>
+    </div>
+
+    <div class="contianer">
+        <div class="counters">
+            <div class="wordsCounter">
+                <span>Words</span>
+                <div id="wCount">0</div>
+            </div>
+
+            <div class="charactersCounter">
+                <span>Characterss</span>
+                <div id="cCount">0</div>
+            </div>
+
+            <div class="sentencesCounter">
+                <span>Sentences</span>
+                <div id="sCount">0</div>
+            </div>
+
+            <div class="paragraphsCounter">
+                <span>Paragraphs</span>
+                <div id="pCount">0</div>
+            </div>
         </div>
-    </section>
-    
-    <section id="dashboard">
-        <div class="count-items">
-            <div class="item">
-                <p>Words</p>
-                <h2 class="word-count">0</h2>
-            </div>
-            <div class="item">
-                <p>Sentences</p>
-                <h2 class="sentence-count">0</h2>
-            </div>
-            <div class="item">
-                <p>Paragraphs</p>
-                <h2 class="paragraph-count">0</h2>
-            </div>
-            <div class="item">
-                <p>Characters</p>
-                <h2 class="character-count">0</h2>
-            </div>
-        </div>
-    </section>
-        
+    </div>
+
+    <button class="count-btn">Count</button>
+
+    <button class="clear-btn">Clear</button>
 </body>
 </html>
