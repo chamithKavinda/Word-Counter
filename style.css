@@ -45,6 +45,13 @@ span{
     justify-content: space-around;
 }
 
+.wCount,
+.cCount,
+.sCount,
+.pCount{
+    color:rgb(54, 62, 82) ;
+}
+
 .counters{
     display: grid;
     grid-template-columns: repeat(2,1fr);
