@@ -16,5 +16,40 @@
     margin-top: 20px;
 }
 
+span{
+    font-size: 22px;
+    color: rgb(62, 76, 112);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wordsCounter,
+.charactersCounter,
+.sentencesCounter,
+.paragraphsCounter{
+    width: 90px;
+    height: 90px;
+    background-color: rgb(205, 200, 231);
+    padding: 30px;
+    font-size: 40px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 15px 30px rgba(92, 88, 102, 0.2);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.counters{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 65%;
+    margin-right: 80px;
+    margin-top: -400px;
+    gap: 50px;
+            
+}
+
 
 
