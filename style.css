@@ -13,7 +13,11 @@
     height: 400px;
     margin-left: 60px;
     padding: auto;
-    margin-top: 20px;
+    margin-top: 10px;
+    color: black;
+    font-size: 18px;
+    padding: 15px;
+    resize: none;
 }
 
 span{
@@ -49,6 +53,36 @@ span{
     margin-top: -400px;
     gap: 50px;
             
+}
+
+.count-btn,
+.clear-btn{
+    padding: 15px 48px;
+    margin: 32px;
+    margin-top: 35px;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+    background: rgb(155, 150, 177);
+    color: #edeff3;
+    border: blue;
+    border-radius: 8px;
+    box-shadow: 0 15px 30px rgba(92, 88, 102, 0.2);
+}
+
+.count-btn:hover{
+    background: rgb(42, 28, 73);
+    color: white;
+}
+
+.clear-btn:hover{
+    background: rgb(245, 61, 48);
+    color: white;
+}
+
+.buttons{
+    margin-left: 15%;
+    margin-top: 35px;
 }
 
 
