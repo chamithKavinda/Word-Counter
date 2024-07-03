@@ -18,6 +18,7 @@ inputText.addEventListener("input",()=>{
 });
 
 
+// clear button
 document.getElementById('clearBtn').addEventListener('click', function() {
     let inputText = document.querySelector(".wordsContent");
     let wordCount = document.querySelector(".wCount");
