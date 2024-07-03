@@ -1,3 +1,9 @@
-
+.word-master-container h1{
+    font-size: 40px;
+    color: rgb(58, 58, 78);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
 
 
