@@ -55,7 +55,6 @@ span{
             
 }
 
-.count-btn,
 .clear-btn{
     padding: 15px 48px;
     margin: 32px;
@@ -70,10 +69,6 @@ span{
     box-shadow: 0 15px 30px rgba(92, 88, 102, 0.2);
 }
 
-.count-btn:hover{
-    background: rgb(42, 28, 73);
-    color: white;
-}
 
 .clear-btn:hover{
     background: rgb(245, 61, 48);
@@ -81,7 +76,7 @@ span{
 }
 
 .buttons{
-    margin-left: 15%;
+    margin-left: 2%;
     margin-top: 35px;
 }
 
